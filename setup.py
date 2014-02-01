@@ -9,7 +9,7 @@ CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 requires = [
     'pyramid',
     'pyramid_debugtoolbar',
-    'uwsgi', 'pyramid_jinja2'
+    'waitress', 'pyramid_jinja2'
 ]
 
 setup(name='RPSLS',
