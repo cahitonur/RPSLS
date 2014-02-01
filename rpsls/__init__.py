@@ -1,7 +1,5 @@
 from pyramid.config import Configurator
 from pyramid.session import UnencryptedCookieSessionFactoryConfig
-import site
-site.addsitedir('/root/Envs/rpsls/lib/python2.7/site-packages')
 
 
 def main(global_config, **settings):
